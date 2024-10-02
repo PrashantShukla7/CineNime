@@ -18,3 +18,7 @@ This app demonstrates the use of React to create an interactive movie browsing e
  2. Run this command in terminal `npm install`.
  3. Now run this command to start the local server `npm run dev`.
  4. Go to browser and search `localhost:5173` to run the application.
+
+
+## You can check the project [here](https://cinenime.vercel.app/)
+ 
