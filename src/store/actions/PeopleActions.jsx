@@ -1,4 +1,4 @@
-import { loadperson } from "../reducers/peopleSlice.jsx";
+import { loadperson } from "../reducers/PeopleSlice.jsx";
 export { removeperson } from "../reducers/PeopleSlice.jsx";
 import axios from '../../utils/axios'
 

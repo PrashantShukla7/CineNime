@@ -1,4 +1,4 @@
-import { loadtv } from "../reducers/tvSlice.jsx";
+import { loadtv } from "../reducers/TvSlice.jsx";
 export { removetv } from "../reducers/TvSlice.jsx";
 import axios from '../../utils/axios.jsx'
 
