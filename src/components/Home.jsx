@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Header from './Header'
-import Cards from './Cards'
-import axios from "../utils/axios";
-import Dropdown from "./Partials/Dropdown";
-import Sidebar from "./Sidebar";
-import Loading from "./Partials/Loading";
+import Header from './Header.jsx'
+import Cards from './Cards.jsx'
+import axios from "../utils/axios.jsx";
+import Dropdown from "./Partials/Dropdown.jsx";
+import Sidebar from "./Sidebar.jsx";
+import Loading from "./Partials/Loading.jsx";
 
 const Home = () => {
     const [headerData, setHeaderData] = useState([]);

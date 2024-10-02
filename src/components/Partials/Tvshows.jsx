@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
-import Topnav from "../Topnav";
-import { Link, useNavigate } from "react-router-dom";
-import Dropdown from "./Dropdown";
-import axios from "../../utils/axios";
+import Topnav from "../Topnav.jsx";
+import { useNavigate } from "react-router-dom";
+import Dropdown from "./Dropdown.jsx";
+import axios from "../../utils/axios.jsx";
 import InfiniteScroll from "react-infinite-scroll-component";
-import SubCards from "./SubCards";
-import Loading from "./Loading";
+import SubCards from "./SubCards.jsx";
+import Loading from "./Loading.jsx";
 
 const Trending = () => {
     document.title = "CineNime | TV Shows"

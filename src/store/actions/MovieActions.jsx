@@ -1,5 +1,5 @@
-import { loadMovie } from "../reducers/MovieSlice";
-export { removeMovie } from "../reducers/MovieSlice";
+import { loadMovie } from "../reducers/MovieSlice.jsx";
+export { removeMovie } from "../reducers/MovieSlice.jsx";
 import axios from '../../utils/axios'
 
 export const asyncLoadMovie = (id) => async (dispatch, getState) =>{

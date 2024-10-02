@@ -1,5 +1,5 @@
-import { loadperson } from "../reducers/peopleSlice";
-export { removeperson } from "../reducers/PeopleSlice";
+import { loadperson } from "../reducers/peopleSlice.jsx";
+export { removeperson } from "../reducers/PeopleSlice.jsx";
 import axios from '../../utils/axios'
 
 export const asyncLoadperson = (id) => async (dispatch, getState) =>{

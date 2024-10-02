@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { asyncLoadperson, removeperson } from "../store/actions/PeopleActions";
+import { asyncLoadperson, removeperson } from "../store/actions/PeopleActions.jsx";
 import { useNavigate, useParams } from "react-router-dom";
-import Loading from "./Partials/Loading";
-import Dropdown from "./Partials/Dropdown";
-import Topnav from "./Topnav";
-import Cards from "./Cards";
+import Loading from "./Partials/Loading.jsx";
+import Dropdown from "./Partials/Dropdown.jsx";
+import Topnav from "./Topnav.jsx";
+import Cards from "./Cards.jsx";
 
 const PeopleDetails = () => {
     const navigate = useNavigate();

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Topnav from "./Topnav";
-import axios from "../utils/axios";
+import Topnav from "./Topnav.jsx";
 import { Link } from "react-router-dom";
 
 const Header = ({headerData}) => {

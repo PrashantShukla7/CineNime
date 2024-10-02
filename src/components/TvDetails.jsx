@@ -7,9 +7,9 @@ import {
     useParams,
 } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { asyncLoadtv, removetv } from "../store/actions/TvActions";
-import Loading from "./Partials/Loading";
-import Cards from "./Cards";
+import { asyncLoadtv, removetv } from "../store/actions/TvActions.jsx";
+import Loading from "./Partials/Loading.jsx";
+import Cards from "./Cards.jsx";
 
 const TvDetails = () => {
     const { pathname } = useLocation();

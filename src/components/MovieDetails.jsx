@@ -7,9 +7,9 @@ import {
     useParams,
 } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { asyncLoadMovie, removeMovie } from "../store/actions/MovieActions";
-import Loading from "./Partials/Loading";
-import Cards from "./Cards";
+import { asyncLoadMovie, removeMovie } from "../store/actions/MovieActions.jsx";
+import Loading from "./Partials/Loading.jsx";
+import Cards from "./Cards.jsx";
 
 const MovieDetails = () => {
     const { pathname } = useLocation();
