@@ -1,8 +1,13 @@
-# React + Vite
+# CineNime 
+## CineNime is a movie app using React JS.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You can find all different movies in CineNime and can watch their trailer as well.
+This app demonstrates the use of React to create an interactive movie browsing experience. It showcases skills in frontend development, API integration, and user interface design.
 
-Currently, two official plugins are available:
+## Tech Stacks Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - React JS for UI components 
+ - Redux Toolkit for state management
+ - Vite for fast builds and development
+ - Axios for API requests 
+ - Tailwind CSS for styling
